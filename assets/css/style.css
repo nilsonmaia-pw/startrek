@@ -247,7 +247,7 @@ body.no-overflow{
 /* Estilo do hero */
 section.hero-site{
   height: 98vh;
-  background-image: url("/assets/img/img-bg-02.jpg");
+  background-image: url(/assets/img/img-bg-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
