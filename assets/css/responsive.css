@@ -1,0 +1,183 @@
+@media screen and (max-width: 900px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+
+    /* button{
+        display: none;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #ccc;
+        background: transparent;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    } */
+}
+
+@media screen and (max-width: 878px){
+
+    /*  Estilo responsivo da hero */
+    section.hero-site .txt-hero h1{
+        font-size: 2.6em;
+        line-height: 40px;
+    }
+    section.hero-site .txt-hero p{
+        font-size: 14px;
+    }
+    
+    section.hero-site .txt-hero p span{
+        display: inline;
+    }
+
+    /* ---------------------- */
+
+    /*  Estilo responsivo de sobre */
+    section.sobre-site .txt-sobre h1{
+        font-size: 2.6em;
+        line-height: 40px;
+    }
+    section.sobre-site .txt-sobre p{
+        font-size: 14px;
+    }
+    
+    section.sobre-site .txt-sobre p span{
+        display: inline;
+    }
+    .sobre-site .txt-sobre button{
+        font-size: 18px;
+    }
+
+    section.sobre-site .img-itens-sobre img{
+        width: 100%;        
+    }
+    /* ---------------------- */
+
+     /*  Estilo responsivo de sobre */
+     section.origem-site .txt-origem h1{
+        font-size: 2.6em;
+        line-height: 40px;
+    }
+    section.origem-site .txt-origem p{
+        font-size: 14px;
+    }
+    
+    section.origem-site .txt-origem p span{
+        display: inline;
+    }
+    section.origem-site .txt-origem button{
+        font-size: 18px;
+    }
+
+    section.origem-site .img-itens-origem img{
+        width: 100%;        
+    }
+    /* ---------------------- */
+
+    /*  Estilo responsivo de filmes */
+    section.filmes-site .itens-container-filmes{
+        flex-direction: column;
+    }
+
+    section.filmes-site .itens-container-filmes .img-itens-filmes img{
+        width: 100%;
+    }
+
+    section.filmes-site .itens-container-filmes .txt-itens-filmes p{
+        margin-bottom: 20px;
+    }
+
+    section.filmes-site .itens-container-filmes .item-1{    
+        order: 1;
+    }        
+
+    section.filmes-site .itens-container-filmes .item-2{    
+        order: 0;
+    }        
+
+    /* -------------------------------------------*/
+
+    /*  Estilo responsivo de series */
+    section.series-site .itens-container-series{
+        flex-direction: column;
+    }
+
+    section.series-site .itens-container-series .img-itens-series img{
+        width: 100%;
+    }
+
+    section.series-site .itens-container-series .txt-itens-series p{
+        margin-bottom: 20px;
+    }
+
+    section.series-site .itens-container-series .item-1{    
+        order: 1;
+    }        
+
+    section.series-site .itens-container-series .item-2{    
+        order: 0;
+    }        
+
+    /* -------------------------------------------*/
+
+    /*  Estilo responsivo de series */
+    section.spinoffs-site .itens-container-spinoffs{
+        flex-direction: column;
+    }
+
+    section.spinoffs-site .itens-container-spinoffs .img-itens-spinoffs img{
+        width: 100%;
+    }
+
+    section.spinoffs-site .itens-container-spinoffs .txt-itens-spinoffs p{
+        margin-bottom: 20px;
+    }
+
+    section.spinoffs-site .itens-container-spinoffs .item-1{    
+        order: 1;
+    }        
+
+    section.spinoffs-site .itens-container-spinoffs .item-2{    
+        order: 0;
+    }        
+
+    /* -------------------------------------------*/
+    
+    /* Estilo responsivo de contato */
+    article.txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+
+    section.contato .txt-contato h3{
+        font-size: 1.8em;
+        line-height: 40px;
+        margin-top: 5px;
+    }
+
+    section.contato .txt-contato p{
+        margin-bottom: 0px;
+    }
+
+    section.contato .icons-contato button{
+        width: 100%;
+    }
+
+    /* -------------------------------- */
+
+    /* Estilo resposivo rodape */
+    footer .middle-footer a{
+        margin: 15 0px;
+        display: block;
+    }
+
+    footer .bottom-footer p{
+        font-size: 14px;
+
+    }
+
+}
+   
