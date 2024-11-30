@@ -1,3 +1,8 @@
+@font-face {
+  font-family: trek;
+  src: url(/assets/fonts/Roddenberry-DgLm.ttf) format('truetype');
+  }
+
 *{
   margin: 0;
   padding: 0;
@@ -104,6 +109,7 @@ header .menu-desktop nav ul li a{
   text-decoration: none;
   display: inline-block;
   transition: .2s;
+  /* font-family: trek, Poppins, Arial, sans-serif; */
 }
 
 header .menu-desktop nav a:hover{
@@ -123,7 +129,7 @@ header .btn-contato button{
   text-transform: uppercase;
   margin-bottom: 4rem;
   margin-top: 2rem;
-  /* font-family: 'Oxanium', sans-serif; */
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 /* sobre: Titulo Nós */
@@ -131,6 +137,7 @@ header .btn-contato button{
   font-size: 2rem;
   color: var(--cor-span);
   text-transform: uppercase;
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 /* Estilo do botão do menu mobile */
@@ -265,11 +272,13 @@ section.hero-site .txt-hero h1{
   font-size: 4em;
   line-height: 70px;
   font-weight: 200;
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 section.hero-site .txt-hero h1 span{
   display: block;
   font-weight: 800;
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 section.hero-site .txt-hero p{
@@ -311,6 +320,7 @@ section.sobre-site .txt-itens-sobre p{
   font-weight: 300;
   text-align: justify;
   margin-bottom: 5rem;
+  
 }
 
 section.sobre-site .txt-itens-sobre p span{
@@ -436,10 +446,14 @@ section.series-site .itens-container-series .txt-itens-series h3{
   font-size: 2.5em;
   line-height: 50px;
   margin-bottom: 20px;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: #525151;
 }
 
 section.series-site .itens-container-series .txt-itens-series h3 span{
   font-weight: 300;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: black
 }
 
 section.series-site .txt-itens-series-item-3 p{
@@ -459,6 +473,7 @@ section.series-site .itens-container-series .txt-itens-series-item-3 h3{
   font-size: 2.5em;
   line-height: 50px;
   margin-bottom: 20px;
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 section.series-site .itens-container-series .txt-itens-series-item-3 h3 span{
@@ -518,10 +533,14 @@ section.filmes-site .itens-container-filmes .txt-itens-filmes h3{
   font-size: 2.5em;
   line-height: 50px;
   margin-bottom: 20px;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: #525151;
 }
 
 section.filmes-site .itens-container-filmes .txt-itens-filmes h3 span{
   font-weight: 300;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: black
 }
 
 section.filmes-site .txt-itens-filmes-item-3 p{
@@ -541,6 +560,7 @@ section.filmes-site .itens-container-filmes .txt-itens-filmes-item-3 h3{
   font-size: 2.5em;
   line-height: 50px;
   margin-bottom: 20px;
+  font-family: trek, Poppins, Arial, sans-serif;
 }
 
 section.filmes-site .itens-container-filmes .txt-itens-filmes-item-3 h3 span{
@@ -600,10 +620,14 @@ section.spinoffs-site .itens-container-spinoffs .txt-itens-spinoffs h3{
   font-size: 2.5em;
   line-height: 50px;
   margin-bottom: 20px;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: #525151;
 }
 
 section.spinoffs-site .itens-container-spinoffs .txt-itens-spinoffs h3 span{
   font-weight: 300;
+  font-family: trek, Poppins, Arial, sans-serif;
+  color: black
 }
 
 section.spinoffs-site .txt-itens-spinoffs-item-3 p{
