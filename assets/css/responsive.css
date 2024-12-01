@@ -14,6 +14,7 @@
     section.hero-site .txt-hero h1{
         font-size: 2.6em;
         line-height: 40px;
+        z-index: 1;
     }
     section.hero-site .txt-hero p{
         font-size: 14px;

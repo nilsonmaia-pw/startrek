@@ -245,8 +245,8 @@ body.no-overflow{
 
 /* Estilo do hero */
 section.hero-site{
-  height: 98vh; 
-  background-image: url('../img/teste.svg');
+  height: 98vh;
+  background-image: url('../img/img-inicio.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -289,6 +289,14 @@ section.hero-site .txt-hero p span{
   height: 60px;
   font-size: 20px;
 }
+section.hero-site .img-bg{
+  display: block; 
+  margin: 0 auto; 
+  max-width: 620px;
+  height: auto;
+  border-radius: 20px;
+}
+
 /* ------------ */
 
 
@@ -312,7 +320,6 @@ section.sobre-site .txt-itens-sobre p{
   font-weight: 300;
   text-align: justify;
   margin-bottom: 5rem;
-  
 }
 
 section.sobre-site .txt-itens-sobre p span{
